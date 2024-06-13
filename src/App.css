@@ -4,6 +4,15 @@
   height:100vh;
 }
 
+.home-container{
+  /* stylelint-disable rule */
+  /* stylelint-enable rule */
+  /* display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: baseline; */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
