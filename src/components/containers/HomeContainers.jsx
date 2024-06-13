@@ -3,7 +3,7 @@ import React from 'react'
 import HomePage from '../../assets/images/homePage.svg'
 import settings from '../../assets/images/Settings.svg'
 import EmergencyBotton from '../bottons/EmergencyBotton'
-import HomePageCards from '../HomePageCards'
+import HomePageCards from '../../Pages/HomePageCards'
 export default function HomeContainers() {
   return (
     <div className='home-container  flex flex-col justify-center items-baseline w-screen'>
