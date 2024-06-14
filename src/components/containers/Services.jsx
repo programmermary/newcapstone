@@ -11,7 +11,7 @@ function Services() {
           <ServicesData data={service} key={index}/>
         })
       }
-    { <ServiecssCard data={ServicesData} key={index}/> }
+    {/* <ServiecssCard data={ServicesData} key={index}/>*/ }
     </div>
   );
 }

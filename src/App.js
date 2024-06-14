@@ -1,12 +1,17 @@
 import './App.css'
-import HomeContainers from './components/containers/HomeContainers';
-
+import { BrowserRouter } from 'react-router-dom'
+import Home from './Pages/Home';
+import AppRutes from './AppRutes';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-        <HomeContainers/>
+        <AppRutes/>
+        <Home/>
+    
     </div>
+    </BrowserRouter>
   );
 }
 
