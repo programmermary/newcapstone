@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='home-container  flex flex-col justify-center items-baseline w-screen'>
       <img className='px-3 py-3' src={settings}/>
-      <img src={HomePage} className='self-center'/>
+      <img src={HomePage} className='self-center' alt="homepageimg"/>
     
       <HomePageCards/>
     </div>
